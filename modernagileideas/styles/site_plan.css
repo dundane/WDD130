@@ -1,0 +1,43 @@
+
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+
+  --modern_agile_color_1: #a4d970 ;
+  --modern_agile_color_2: #fbd35c;
+  --modern_agile_color_3:#fa7977 ;
+  --modern_agile_color_4:#a1bde3 ;
+  --modern_agile_color_5: #4b5666;
+
+
+  --primary-color: #FFEECF;
+  --secondary-color: #253C78;
+  --tertiary-color : #2B59C3;
+  --accent1-color: #C9A690;
+  --accent2-color: #D36582;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Bebas Neue";
+  --sub-heading-font: "Open Sans";
+
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #253C78;  /* headlines on a white background */ 
+  --headline-color-on-color: #FFEECF; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #2B59C3; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FFEECF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #253C78  ;
+  --nav-link-color: #253C78;
+  --nav-background-color: #FFEECF;
+  --nav-hover-link-color: #2B59C3;
+  --nav-hover-background-color: #C9A690;
+  --link-color: #C9A690;
+  --link-hover-color: #D36582;
+  --link-color-reverse: #2B59C3;
+  --link-hover-color-reverse: #D36582;
+}
