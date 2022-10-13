@@ -149,6 +149,12 @@ nav a:hover {
     text-align: center;
 }
 
+.content_pair_left
+.content_pair_right{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+
 .card-img {
     border: 10px solid var(--tertiary-color);
     width: 100%;
@@ -175,6 +181,16 @@ nav a:hover {
     padding-top: 10px;
 }
 
+.left_image{
+    max-width: 250px;
+    grid-column: 1/2;
+}
+
+.left_content {
+    grid-column: 1/3;
+    text-align: left;
+}
+
 .logo {
     width: 80px;
     height: 80px;
@@ -199,6 +215,21 @@ nav a:hover {
     font-size: .8em;
     padding-bottom: 15px;
 }
+
+header.offmainhead{
+    opacity: 1;
+}
+
+.right_image{
+    max-width: 250px;
+    grid-column: 3/4;
+}
+
+.right_content {
+    grid-column: 2/4;
+    text-align: left;
+}
+
 
 .rivers-card,
 .camping-card,
