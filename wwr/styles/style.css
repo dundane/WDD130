@@ -149,10 +149,14 @@ nav a:hover {
     text-align: center;
 }
 
-.content_pair_left
+.content_pair_left,
 .content_pair_right{
+    
     display: grid;
     grid-template-columns: repeat(3 1fr);
+    text-align: left;
+    align-items: center;
+    justify-items: center;
 }
 
 .card-img {
@@ -184,11 +188,14 @@ nav a:hover {
 .left_image{
     max-width: 250px;
     grid-column: 1/2;
+
 }
 
 .left_content {
     grid-column: 1/3;
     text-align: left;
+    max-width: 500px;
+    color: var(--paragraph-color-on-color);
 }
 
 .logo {
@@ -228,6 +235,8 @@ header.offmainhead{
 .right_content {
     grid-column: 2/4;
     text-align: left;
+    max-width: 500px;
+    color: var(--paragraph-color-on-color);
 }
 
 
