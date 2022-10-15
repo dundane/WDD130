@@ -320,7 +320,7 @@ header.offmainhead{
 
 #feedback{
     background-color: var(--primary-color);
-    columns: var(--secondary-color);
+    color: var(--secondary-color);
     font-family: var(--paragraph-font);
     position: absolute;
     top:0;
