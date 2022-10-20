@@ -1,69 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Modern Agile Ideas</h1>
     </header>
 
     <main>
-        <div id="navigation">
-            <ul>
-                <li>
-                    <a href="index.html" class="home_nav">Home</a>
-                </li>
-                <li>
-                    <a href="horizontal_axis.html" class="horizontal_nav">Horizontal Axis</a>
-                </li>
-                <li>
-                    <a href="vertical_axis.html" class="vertical_nav">Vertical Axis</a>
-                </li>
-            </ul>
-        </div>
-        <div id="home_modern_agile_general">
-            <img src="images/ModernAgileWheel.png" alt="Modern Agile Wheel">
-            <div id="home_modern_agile_main" class="content">
-                <div>This site is to help anyone interested in modern agile to understand some of the basics. </div>
-                <div>The Modern Agile badge encapsulates the four principles of Modern Agile. </div>
+        <div class="content-grid">
+            <div id="home_navigation" class="navigation-box">
+                <div class="navigation_grid">
+                    <div class="home_nav">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="horizontal_nav">
+                        <a href="horizontal_axis.html">Horizontal Axis</a>
+                    </div>
+                    <div class="vertical_nav">
+                        <a href="vertical_axis.html">Vertical Axis</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div id="home_modern_agile_vertical">
-            <img src="images/ModernAgileWheelVertical.png" alt="Modern Agile Vertical Wheel">
-            <div>The Vertical elements from the badge are Make People Awesome and Make Safety a Prerequisite.</div>
-            <div>The vertical elements primarily represent the human factor of the modern agile process.</div>
-            <img src="images/Icon-MakePeopleAwesomeAlt.png" alt="Heart Icon">
-            <div id="home_make_people_awesome" class="content">
-                Make People Awesome refers to both those who are working on the code as well as our customers.
-                The goal is always to make people Awesome or at least more awesome than they were.
+            <div id="home_modern_agile_general">
+                <img class="image_large" src="images/ModernAgileWheel.png" alt="Modern Agile Wheel">
+                <div id="home_modern_agile_main" class="content">
+                    <div>This site is to help anyone interested in modern agile to understand some of the basics. </div>
+                    <div>The Modern Agile badge encapsulates the four principles of Modern Agile. </div>
+                </div>
             </div>
-            <img src="images/Icon-MakeSafetyaPrerequisiteAlt.png" alt="Shield Icon">
-            <div id="home_safety" class="content">
-                Make Safety a Prerequisite is the element that recognizes everyone needs to feel safe if they are going to do our best work.
+            <div id="home_modern_agile_vertical">
+                <div class="image_text_combo vertical_wheel">
+                    <img class="image_mid" src="images/ModernAgileWheelVertical.png" alt="Modern Agile Vertical Wheel">
+                    <div>The Vertical elements from the badge are Make People Awesome and Make Safety a Prerequisite.
+                    </div>
+                    <div>The vertical elements primarily represent the human factor of the modern agile process.</div>
+                </div>
+                <br>
+                <div class="image_text_combo vertical_awesome">
+                    <img class="image_small" src="images/Icon-MakePeopleAwesomeAlt.png" alt="Heart Icon">
+                    <div id="home_make_people_awesome" class="content">
+                        Make People Awesome refers to both those who are working on the code as well as our customers.
+                        The goal is always to make people Awesome or at least more awesome than they were.
+                    </div>
+                </div>
+                <br>
+                <div class="image_text_combo vertical_safety">
+                    <img class="image_small" src="images/Icon-MakeSafetyaPrerequisiteAlt.png" alt="Shield Icon">
+                    <div id="home_safety" class="content">
+                        Make Safety a Prerequisite is the element that recognizes everyone needs to feel safe if they
+                        are
+                        going to do our best work.
+                    </div>
+                </div>
             </div>
-        </div>
-        <div id="home_modern_Agile_horizontal">
-            <img src="images/ModernAgileWheelHorizontal.png" alt="Modern Agile Wheel">
-            <div>The horizontal elements from the badge are Experiment and Learn Rapidly & Deliver Value Continuously.</div>
-            <div>The horizontal elements primarily represent the mechanics of the modern agile process.</div>
-            <img src="images/Icon-ExperimentandLearnRapidlyAlt.png" alt="Beaker Icon">
-            <div id="home_experiment" class="content">
-                Experiment and Learn Rapidly speaks to the requirement to try new things and always improve.
-            </div>
-            <img src="images/Icon-DeliverValueContinuouslyAlt.png" alt="Open Box Icon">
-            <div id="home_deliver" class="content">
-                Deliver value Continuously speaks to the requirement to actually get work done and deliver something that adds value.
+            <div id="home_modern_Agile_horizontal">
+                <div class="image_text_combo horizontal_wheel">
+                    <img class="image_mid" src="images/ModernAgileWheelHorizontal.png" alt="Modern Agile Wheel">
+                    <div>The horizontal elements from the badge are Experiment and Learn Rapidly & Deliver Value
+                        Continuously.</div>
+                    <div>The horizontal elements primarily represent the mechanics of the modern agile process.</div>
+                </div>
+                <br>
+                <div class="image_text_combo horizontal_experiment">
+                    <img class="image_small" src="images/Icon-ExperimentandLearnRapidlyAlt.png" alt="Beaker Icon">
+                    <div id="home_experiment" class="content">
+                        Experiment and Learn Rapidly speaks to the requirement to try new things and always improve.
+                    </div>
+                </div>
+                <br>
+                <div class="image_text_combo horizontal_deliver">
+                    <img class="image_small" src="images/Icon-DeliverValueContinuouslyAlt.png" alt="Open Box Icon">
+                    <div id="home_deliver" class="content">
+                        Deliver value Continuously speaks to the requirement to actually get work done and deliver
+                        something
+                        that adds value.
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div>Jared Doerr Modern Agile Ideas 2022</div>
+        <h2>Jared Doerr Modern Agile Ideas 2022</h2>
         <a href="site-plan.html">Site Plan</a>
     </footer>
 </body>
+
 </html>
